@@ -1,0 +1,429 @@
+[2024-08-29 18:13:05] local.ERROR: View [includes.image-editor] not found. {"view":{"view":"D:\\xampp\\htdocs\\2biditonline\\resources\\views\\lot_items\\edit.blade.php","data":{"errors":"<pre class=sf-dump id=sf-dump-343811103 data-indent-pad=\"  \"><span class=sf-dump-note>Illuminate\\Support\\ViewErrorBag</span> {<a class=sf-dump-ref>#1552</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">bags</span>: []
+</samp>}
+</pre><script>Sfdump(\"sf-dump-343811103\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","logged_user":"<pre class=sf-dump id=sf-dump-413027770 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\User</span> {<a class=sf-dump-ref>#1581</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"5 characters\">users</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:26</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Admin</span>\"
+    \"<span class=sf-dump-key>first_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>last_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>user_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"14 characters\">admin@demo.com</span>\"
+    \"<span class=sf-dump-key>password</span>\" => \"<span class=sf-dump-str title=\"60 characters\">$2y$10$jSAr/RwmjhwioDlJErOk9OQEO7huLz9O6Iuf/udyGbHPiTNuB3Iuy</span>\"
+    \"<span class=sf-dump-key>country_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>mobile</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>gender</span>\" => \"<span class=sf-dump-str title=\"4 characters\">male</span>\"
+    \"<span class=sf-dump-key>address</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>website</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>phone</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>phone_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>photo</span>\" => \"<span class=sf-dump-str title=\"41 characters\">1717142238ihykl-pexels-pixabay-415829.jpg</span>\"
+    \"<span class=sf-dump-key>photo_storage</span>\" => \"<span class=sf-dump-str title=\"6 characters\">public</span>\"
+    \"<span class=sf-dump-key>user_type</span>\" => \"<span class=sf-dump-str title=\"5 characters\">admin</span>\"
+    \"<span class=sf-dump-key>active_status</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>is_email_verified</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_auction_verified</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>activation_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_online</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>last_login</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>remember_token</span>\" => \"<span class=sf-dump-str title=\"60 characters\">XE1OEE41wH1dcttSAckcC17qefLeJBMAqWDX8nIhvJVEq0cl7zIwHTvZub2T</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2018-01-06 17:36:58</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-05-31 16:57:18</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:26</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Admin</span>\"
+    \"<span class=sf-dump-key>first_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>last_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>user_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"14 characters\">admin@demo.com</span>\"
+    \"<span class=sf-dump-key>password</span>\" => \"<span class=sf-dump-str title=\"60 characters\">$2y$10$jSAr/RwmjhwioDlJErOk9OQEO7huLz9O6Iuf/udyGbHPiTNuB3Iuy</span>\"
+    \"<span class=sf-dump-key>country_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>mobile</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>gender</span>\" => \"<span class=sf-dump-str title=\"4 characters\">male</span>\"
+    \"<span class=sf-dump-key>address</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>website</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>phone</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>phone_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>photo</span>\" => \"<span class=sf-dump-str title=\"41 characters\">1717142238ihykl-pexels-pixabay-415829.jpg</span>\"
+    \"<span class=sf-dump-key>photo_storage</span>\" => \"<span class=sf-dump-str title=\"6 characters\">public</span>\"
+    \"<span class=sf-dump-key>user_type</span>\" => \"<span class=sf-dump-str title=\"5 characters\">admin</span>\"
+    \"<span class=sf-dump-key>active_status</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>is_email_verified</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_auction_verified</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>activation_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_online</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>last_login</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>remember_token</span>\" => \"<span class=sf-dump-str title=\"60 characters\">XE1OEE41wH1dcttSAckcC17qefLeJBMAqWDX8nIhvJVEq0cl7zIwHTvZub2T</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2018-01-06 17:36:58</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-05-31 16:57:18</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">usesUniqueIds</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"8 characters\">password</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"14 characters\">remember_token</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">rememberTokenName</span>: \"<span class=sf-dump-str title=\"14 characters\">remember_token</span>\"
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`App\\Models\\User`\">roleClass</span>: <span class=sf-dump-const>null</span>
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`App\\Models\\User`\">permissionClass</span>: <span class=sf-dump-const>null</span>
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`App\\Models\\User`\">wildcardClass</span>: <span class=sf-dump-const>null</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-413027770\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","title":"<pre class=sf-dump id=sf-dump-1549434309 data-indent-pad=\"  \">\"<span class=sf-dump-str title=\"12 characters\">Edit Auction</span>\"
+</pre><script>Sfdump(\"sf-dump-1549434309\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","item":"<pre class=sf-dump id=sf-dump-450671424 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\LotItems</span> {<a class=sf-dump-ref>#1610</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"9 characters\">lot_items</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:21</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>user_id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>item_name</span>\" => \"<span class=sf-dump-str title=\"7 characters\">Diamond</span>\"
+    \"<span class=sf-dump-key>detailed_description</span>\" => \"<span class=sf-dump-str title=\"13 characters\">&lt;p&gt;asdasd&lt;/p&gt;</span>\"
+    \"<span class=sf-dump-key>item_weight</span>\" => <span class=sf-dump-num>10.0</span>
+    \"<span class=sf-dump-key>weight_unit</span>\" => \"<span class=sf-dump-str>A</span>\"
+    \"<span class=sf-dump-key>item_type</span>\" => \"<span class=sf-dump-str>A</span>\"
+    \"<span class=sf-dump-key>metal_type</span>\" => \"<span class=sf-dump-str>A</span>\"
+    \"<span class=sf-dump-key>metal_color</span>\" => \"<span class=sf-dump-str title=\"4 characters\">Gold</span>\"
+    \"<span class=sf-dump-key>item_size</span>\" => \"<span class=sf-dump-str title=\"2 characters\">10</span>\"
+    \"<span class=sf-dump-key>total_gem_weight</span>\" => <span class=sf-dump-num>248.0</span>
+    \"<span class=sf-dump-key>appraised_value</span>\" => \"<span class=sf-dump-str title=\"6 characters\">343.00</span>\"
+    \"<span class=sf-dump-key>reserve_price</span>\" => \"<span class=sf-dump-str title=\"6 characters\">855.00</span>\"
+    \"<span class=sf-dump-key>startPrice</span>\" => \"<span class=sf-dump-str title=\"6 characters\">546.00</span>\"
+    \"<span class=sf-dump-key>minEstimate</span>\" => \"<span class=sf-dump-str title=\"5 characters\">84.00</span>\"
+    \"<span class=sf-dump-key>maxEstimate</span>\" => \"<span class=sf-dump-str title=\"5 characters\">89.00</span>\"
+    \"<span class=sf-dump-key>buyoutPrice</span>\" => \"<span class=sf-dump-str title=\"6 characters\">804.00</span>\"
+    \"<span class=sf-dump-key>postSalePrice</span>\" => \"<span class=sf-dump-str title=\"6 characters\">540.00</span>\"
+    \"<span class=sf-dump-key>internalCatalogNumber</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-08-05 14:21:41</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-08-11 11:06:22</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:21</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>user_id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>item_name</span>\" => \"<span class=sf-dump-str title=\"7 characters\">Diamond</span>\"
+    \"<span class=sf-dump-key>detailed_description</span>\" => \"<span class=sf-dump-str title=\"13 characters\">&lt;p&gt;asdasd&lt;/p&gt;</span>\"
+    \"<span class=sf-dump-key>item_weight</span>\" => <span class=sf-dump-num>10.0</span>
+    \"<span class=sf-dump-key>weight_unit</span>\" => \"<span class=sf-dump-str>A</span>\"
+    \"<span class=sf-dump-key>item_type</span>\" => \"<span class=sf-dump-str>A</span>\"
+    \"<span class=sf-dump-key>metal_type</span>\" => \"<span class=sf-dump-str>A</span>\"
+    \"<span class=sf-dump-key>metal_color</span>\" => \"<span class=sf-dump-str title=\"4 characters\">Gold</span>\"
+    \"<span class=sf-dump-key>item_size</span>\" => \"<span class=sf-dump-str title=\"2 characters\">10</span>\"
+    \"<span class=sf-dump-key>total_gem_weight</span>\" => <span class=sf-dump-num>248.0</span>
+    \"<span class=sf-dump-key>appraised_value</span>\" => \"<span class=sf-dump-str title=\"6 characters\">343.00</span>\"
+    \"<span class=sf-dump-key>reserve_price</span>\" => \"<span class=sf-dump-str title=\"6 characters\">855.00</span>\"
+    \"<span class=sf-dump-key>startPrice</span>\" => \"<span class=sf-dump-str title=\"6 characters\">546.00</span>\"
+    \"<span class=sf-dump-key>minEstimate</span>\" => \"<span class=sf-dump-str title=\"5 characters\">84.00</span>\"
+    \"<span class=sf-dump-key>maxEstimate</span>\" => \"<span class=sf-dump-str title=\"5 characters\">89.00</span>\"
+    \"<span class=sf-dump-key>buyoutPrice</span>\" => \"<span class=sf-dump-str title=\"6 characters\">804.00</span>\"
+    \"<span class=sf-dump-key>postSalePrice</span>\" => \"<span class=sf-dump-str title=\"6 characters\">540.00</span>\"
+    \"<span class=sf-dump-key>internalCatalogNumber</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-08-05 14:21:41</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-08-11 11:06:22</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>stones</span>\" => <span class=sf-dump-note title=\"Illuminate\\Database\\Eloquent\\Collection
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Database\\Eloquent</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Collection</span> {<a class=sf-dump-ref>#1643</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">items</span>: []
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+    </samp>}
+    \"<span class=sf-dump-key>images</span>\" => <span class=sf-dump-note title=\"Illuminate\\Database\\Eloquent\\Collection
+\"><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">Illuminate\\Database\\Eloquent</span><span class=\"sf-dump-ellipsis sf-dump-ellipsis-note\">\\</span>Collection</span> {<a class=sf-dump-ref>#1674</a><samp data-depth=3 class=sf-dump-compact>
+      #<span class=sf-dump-protected title=\"Protected property\">items</span>: <span class=sf-dump-note>array:2</span> [ &#8230;2]
+      #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+    </samp>}
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">usesUniqueIds</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: <span class=sf-dump-note>array:18</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"7 characters\">user_id</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"9 characters\">item_name</span>\"
+    <span class=sf-dump-index>2</span> => \"<span class=sf-dump-str title=\"20 characters\">detailed_description</span>\"
+    <span class=sf-dump-index>3</span> => \"<span class=sf-dump-str title=\"11 characters\">item_weight</span>\"
+    <span class=sf-dump-index>4</span> => \"<span class=sf-dump-str title=\"11 characters\">weight_unit</span>\"
+    <span class=sf-dump-index>5</span> => \"<span class=sf-dump-str title=\"9 characters\">item_type</span>\"
+    <span class=sf-dump-index>6</span> => \"<span class=sf-dump-str title=\"10 characters\">metal_type</span>\"
+    <span class=sf-dump-index>7</span> => \"<span class=sf-dump-str title=\"11 characters\">metal_color</span>\"
+    <span class=sf-dump-index>8</span> => \"<span class=sf-dump-str title=\"9 characters\">item_size</span>\"
+    <span class=sf-dump-index>9</span> => \"<span class=sf-dump-str title=\"16 characters\">total_gem_weight</span>\"
+    <span class=sf-dump-index>10</span> => \"<span class=sf-dump-str title=\"15 characters\">appraised_value</span>\"
+    <span class=sf-dump-index>11</span> => \"<span class=sf-dump-str title=\"13 characters\">reserve_price</span>\"
+    <span class=sf-dump-index>12</span> => \"<span class=sf-dump-str title=\"21 characters\">internalCatalogNumber</span>\"
+    <span class=sf-dump-index>13</span> => \"<span class=sf-dump-str title=\"10 characters\">startPrice</span>\"
+    <span class=sf-dump-index>14</span> => \"<span class=sf-dump-str title=\"11 characters\">minEstimate</span>\"
+    <span class=sf-dump-index>15</span> => \"<span class=sf-dump-str title=\"11 characters\">maxEstimate</span>\"
+    <span class=sf-dump-index>16</span> => \"<span class=sf-dump-str title=\"11 characters\">buyoutPrice</span>\"
+    <span class=sf-dump-index>17</span> => \"<span class=sf-dump-str title=\"13 characters\">postSalePrice</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: <span class=sf-dump-note>array:1</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str>*</span>\"
+  </samp>]
+</samp>}
+</pre><script>Sfdump(\"sf-dump-450671424\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","lUser":"<pre class=sf-dump id=sf-dump-1715490657 data-indent-pad=\"  \"><span class=sf-dump-note>App\\Models\\User</span> {<a class=sf-dump-ref>#1581</a><samp data-depth=1 class=sf-dump-expanded>
+  #<span class=sf-dump-protected title=\"Protected property\">connection</span>: \"<span class=sf-dump-str title=\"5 characters\">mysql</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">table</span>: \"<span class=sf-dump-str title=\"5 characters\">users</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">primaryKey</span>: \"<span class=sf-dump-str title=\"2 characters\">id</span>\"
+  #<span class=sf-dump-protected title=\"Protected property\">keyType</span>: \"<span class=sf-dump-str title=\"3 characters\">int</span>\"
+  +<span class=sf-dump-public title=\"Public property\">incrementing</span>: <span class=sf-dump-const>true</span>
+  #<span class=sf-dump-protected title=\"Protected property\">with</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">withCount</span>: []
+  +<span class=sf-dump-public title=\"Public property\">preventsLazyLoading</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">perPage</span>: <span class=sf-dump-num>15</span>
+  +<span class=sf-dump-public title=\"Public property\">exists</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">wasRecentlyCreated</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">escapeWhenCastingToString</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">attributes</span>: <span class=sf-dump-note>array:26</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Admin</span>\"
+    \"<span class=sf-dump-key>first_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>last_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>user_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"14 characters\">admin@demo.com</span>\"
+    \"<span class=sf-dump-key>password</span>\" => \"<span class=sf-dump-str title=\"60 characters\">$2y$10$jSAr/RwmjhwioDlJErOk9OQEO7huLz9O6Iuf/udyGbHPiTNuB3Iuy</span>\"
+    \"<span class=sf-dump-key>country_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>mobile</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>gender</span>\" => \"<span class=sf-dump-str title=\"4 characters\">male</span>\"
+    \"<span class=sf-dump-key>address</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>website</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>phone</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>phone_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>photo</span>\" => \"<span class=sf-dump-str title=\"41 characters\">1717142238ihykl-pexels-pixabay-415829.jpg</span>\"
+    \"<span class=sf-dump-key>photo_storage</span>\" => \"<span class=sf-dump-str title=\"6 characters\">public</span>\"
+    \"<span class=sf-dump-key>user_type</span>\" => \"<span class=sf-dump-str title=\"5 characters\">admin</span>\"
+    \"<span class=sf-dump-key>active_status</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>is_email_verified</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_auction_verified</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>activation_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_online</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>last_login</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>remember_token</span>\" => \"<span class=sf-dump-str title=\"60 characters\">XE1OEE41wH1dcttSAckcC17qefLeJBMAqWDX8nIhvJVEq0cl7zIwHTvZub2T</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2018-01-06 17:36:58</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-05-31 16:57:18</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">original</span>: <span class=sf-dump-note>array:26</span> [<samp data-depth=2 class=sf-dump-compact>
+    \"<span class=sf-dump-key>id</span>\" => <span class=sf-dump-num>1</span>
+    \"<span class=sf-dump-key>name</span>\" => \"<span class=sf-dump-str title=\"5 characters\">Admin</span>\"
+    \"<span class=sf-dump-key>first_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>last_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>user_name</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>email</span>\" => \"<span class=sf-dump-str title=\"14 characters\">admin@demo.com</span>\"
+    \"<span class=sf-dump-key>password</span>\" => \"<span class=sf-dump-str title=\"60 characters\">$2y$10$jSAr/RwmjhwioDlJErOk9OQEO7huLz9O6Iuf/udyGbHPiTNuB3Iuy</span>\"
+    \"<span class=sf-dump-key>country_id</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>mobile</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>gender</span>\" => \"<span class=sf-dump-str title=\"4 characters\">male</span>\"
+    \"<span class=sf-dump-key>address</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>website</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>phone</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>phone_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>photo</span>\" => \"<span class=sf-dump-str title=\"41 characters\">1717142238ihykl-pexels-pixabay-415829.jpg</span>\"
+    \"<span class=sf-dump-key>photo_storage</span>\" => \"<span class=sf-dump-str title=\"6 characters\">public</span>\"
+    \"<span class=sf-dump-key>user_type</span>\" => \"<span class=sf-dump-str title=\"5 characters\">admin</span>\"
+    \"<span class=sf-dump-key>active_status</span>\" => \"<span class=sf-dump-str>1</span>\"
+    \"<span class=sf-dump-key>is_email_verified</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_auction_verified</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>activation_code</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>is_online</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>last_login</span>\" => <span class=sf-dump-const>null</span>
+    \"<span class=sf-dump-key>remember_token</span>\" => \"<span class=sf-dump-str title=\"60 characters\">XE1OEE41wH1dcttSAckcC17qefLeJBMAqWDX8nIhvJVEq0cl7zIwHTvZub2T</span>\"
+    \"<span class=sf-dump-key>created_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2018-01-06 17:36:58</span>\"
+    \"<span class=sf-dump-key>updated_at</span>\" => \"<span class=sf-dump-str title=\"19 characters\">2024-05-31 16:57:18</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">changes</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">casts</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">classCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">attributeCastCache</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dateFormat</span>: <span class=sf-dump-const>null</span>
+  #<span class=sf-dump-protected title=\"Protected property\">appends</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">dispatchesEvents</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">observables</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">relations</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">touches</span>: []
+  +<span class=sf-dump-public title=\"Public property\">timestamps</span>: <span class=sf-dump-const>true</span>
+  +<span class=sf-dump-public title=\"Public property\">usesUniqueIds</span>: <span class=sf-dump-const>false</span>
+  #<span class=sf-dump-protected title=\"Protected property\">hidden</span>: <span class=sf-dump-note>array:2</span> [<samp data-depth=2 class=sf-dump-compact>
+    <span class=sf-dump-index>0</span> => \"<span class=sf-dump-str title=\"8 characters\">password</span>\"
+    <span class=sf-dump-index>1</span> => \"<span class=sf-dump-str title=\"14 characters\">remember_token</span>\"
+  </samp>]
+  #<span class=sf-dump-protected title=\"Protected property\">visible</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">fillable</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">guarded</span>: []
+  #<span class=sf-dump-protected title=\"Protected property\">rememberTokenName</span>: \"<span class=sf-dump-str title=\"14 characters\">remember_token</span>\"
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`App\\Models\\User`\">roleClass</span>: <span class=sf-dump-const>null</span>
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`App\\Models\\User`\">permissionClass</span>: <span class=sf-dump-const>null</span>
+  -<span class=sf-dump-private title=\"Private property defined in class:&#10;`App\\Models\\User`\">wildcardClass</span>: <span class=sf-dump-const>null</span>
+</samp>}
+</pre><script>Sfdump(\"sf-dump-1715490657\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","enable_monetize":"<pre class=sf-dump id=sf-dump-1750935343 data-indent-pad=\"  \">\"<span class=sf-dump-str>0</span>\"
+</pre><script>Sfdump(\"sf-dump-1750935343\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+","current_lang":"<pre class=sf-dump id=sf-dump-479575446 data-indent-pad=\"  \"><span class=sf-dump-const>false</span>
+</pre><script>Sfdump(\"sf-dump-479575446\", {\"maxDepth\":3,\"maxStringLength\":160})</script>
+"}},"userId":1,"exception":"[object] (Spatie\\LaravelIgnition\\Exceptions\\ViewException(code: 0): View [includes.image-editor] not found. at D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('includes.image-...', Array)
+#1 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(137): Illuminate\\View\\FileViewFinder->find('includes.image-...')
+#2 D:\\xampp\\htdocs\\2biditonline\\resources\\views\\lot_items\\edit.blade.php(480): Illuminate\\View\\Factory->make('includes.image-...', Array)
+#3 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): require('D:\\\\xampp\\\\htdocs...')
+#4 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#5 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\xampp\\\\htdocs...', Array)
+#6 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\xampp\\\\htdocs...', Array)
+#7 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\xampp\\\\htdocs...', Array)
+#8 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#9 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#10 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#11 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#12 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#13 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#14 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#15 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 D:\\xampp\\htdocs\\2biditonline\\app\\Http\\Middleware\\DashboardArea.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\DashboardArea->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 D:\\xampp\\htdocs\\2biditonline\\app\\Http\\Middleware\\SetApplicationLanguage.php(28): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\SetApplicationLanguage->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#28 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#35 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#36 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#37 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#38 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#39 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#40 D:\\xampp\\htdocs\\2biditonline\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php(66): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 D:\\xampp\\htdocs\\2biditonline\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 D:\\xampp\\htdocs\\2biditonline\\server.php(19): require_once('D:\\\\xampp\\\\htdocs...')
+#57 {main}
+
+[previous exception] [object] (InvalidArgumentException(code: 0): View [includes.image-editor] not found. at D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:137)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php(79): Illuminate\\View\\FileViewFinder->findInPaths('includes.image-...', Array)
+#1 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Factory.php(137): Illuminate\\View\\FileViewFinder->find('includes.image-...')
+#2 D:\\xampp\\htdocs\\2biditonline\\storage\\framework\\views\\c09fcd66ede770345743e7d0a218492d.php(505): Illuminate\\View\\Factory->make('includes.image-...', Array)
+#3 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(124): require('D:\\\\xampp\\\\htdocs...')
+#4 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(125): Illuminate\\Filesystem\\Filesystem::Illuminate\\Filesystem\\{closure}()
+#5 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\PhpEngine.php(58): Illuminate\\Filesystem\\Filesystem->getRequire('D:\\\\xampp\\\\htdocs...', Array)
+#6 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Engines\\CompilerEngine.php(70): Illuminate\\View\\Engines\\PhpEngine->evaluatePath('D:\\\\xampp\\\\htdocs...', Array)
+#7 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(195): Illuminate\\View\\Engines\\CompilerEngine->get('D:\\\\xampp\\\\htdocs...', Array)
+#8 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(178): Illuminate\\View\\View->getContents()
+#9 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\View.php(147): Illuminate\\View\\View->renderContents()
+#10 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(69): Illuminate\\View\\View->render()
+#11 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#12 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(906): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 200, Array)
+#13 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(875): Illuminate\\Routing\\Router::toResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#14 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Routing\\Router->prepareResponse(Object(Illuminate\\Http\\Request), Object(Illuminate\\View\\View))
+#15 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#16 D:\\xampp\\htdocs\\2biditonline\\app\\Http\\Middleware\\DashboardArea.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\DashboardArea->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 D:\\xampp\\htdocs\\2biditonline\\app\\Http\\Middleware\\SetApplicationLanguage.php(28): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): App\\Http\\Middleware\\SetApplicationLanguage->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#21 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#28 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#29 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#30 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#35 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#36 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#37 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#38 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(200): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#39 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#40 D:\\xampp\\htdocs\\2biditonline\\vendor\\barryvdh\\laravel-debugbar\\src\\Middleware\\InjectDebugbar.php(66): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Barryvdh\\Debugbar\\Middleware\\InjectDebugbar->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#45 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#46 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#48 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#49 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#50 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#51 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#52 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#53 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(175): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#54 D:\\xampp\\htdocs\\2biditonline\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(144): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#55 D:\\xampp\\htdocs\\2biditonline\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#56 D:\\xampp\\htdocs\\2biditonline\\server.php(19): require_once('D:\\\\xampp\\\\htdocs...')
+#57 {main}
+"} 

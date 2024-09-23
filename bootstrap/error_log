@@ -1,0 +1,16 @@
+[23-May-2024 12:44:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/theskpjr/looting.uktech.dev/auction-simple/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/theskpjr/looting.uktech.dev/auction-simple/bootstrap/app.php on line 14
+[23-May-2024 12:44:36 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/theskpjr/looting.uktech.dev/auction-simple/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/theskpjr/looting.uktech.dev/auction-simple/bootstrap/app.php on line 14
+[23-May-2024 12:44:37 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/theskpjr/looting.uktech.dev/auction-simple/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/theskpjr/looting.uktech.dev/auction-simple/bootstrap/app.php on line 14
+[23-May-2024 12:44:53 UTC] PHP Fatal error:  Uncaught Error: Class "Illuminate\Foundation\Application" not found in /home/theskpjr/looting.uktech.dev/auction-simple/bootstrap/app.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/theskpjr/looting.uktech.dev/auction-simple/bootstrap/app.php on line 14
