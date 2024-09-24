@@ -241,7 +241,8 @@ function get_stripe_key($type = 'publishable')
         if (get_option('stripe_test_mode') == 1) {
             $stripe_key = get_option('stripe_test_secret_key');
         } else {
-            $stripe_key = get_option('sk_live_ojldRoMZ3j14I5pwpfCxidvT');
+            $stripe_key_env = env('STRIPE_SECRETE_KEY');
+            $stripe_key = get_option($stripe_key_env);
         }
     }
 
